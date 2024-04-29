@@ -4,7 +4,7 @@ spring:
   application:
     name: example-service
   datasource:
-    url: jdbc:mysql://localhost:3306/exampledb
+    url: jdbc:mysql://localhost:3306/example
     username: user
     password: password
 
