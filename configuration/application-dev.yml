@@ -1,3 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: example-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/exampledb
+    username: user
+    password: password
+
 # Development profile-specific configuration properties
 logging:
   level:
