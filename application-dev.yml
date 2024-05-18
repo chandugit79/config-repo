@@ -2,9 +2,6 @@ spring:
   config:
     activate:
       on-profile: prod
-spring:
-  application:
-    name: config-server
   cloud:
     config:
       server:
