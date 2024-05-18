@@ -7,6 +7,6 @@ spring:
       server:
         git:
           uri: https://github.com/your-repo/config-repo
-          clone-on-start: true
-          default-label: master
+          search-path: dev
+          default-label: dev
 message: "This is the development profile"
