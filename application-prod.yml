@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/your-repo/config-repo
+          search-paths: prod
+          default-label: prod
+message: "This is the production profile"
