@@ -1,4 +1,4 @@
 your:
   service:
     secret: '{cipher}ENCRYPTED_SECRET'
-message: "This is the dv profile"
+message: "This is the DEv profile"
