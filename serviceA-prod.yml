@@ -9,4 +9,4 @@ spring:
           uri: https://github.com/your-repo/config-repo
           search-paths: prod
           default-label: prod
-message: "This is the production profile"
+message: "This is the prod profile"
